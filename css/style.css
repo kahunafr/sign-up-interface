@@ -9,6 +9,17 @@ input:focus {
     box-shadow: none!important;
 }
 
+.container-fluid.load.loaded:before {
+    content: "";
+    background: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.4;
+}
+
 .container-fluid.load {
     height: 100vh;
 }
