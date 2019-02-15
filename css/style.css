@@ -26,6 +26,16 @@ input:focus {
     background-color: #2A2A2A;
 }
 
+button.form-control {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
 .card-img-top {
     vertical-align: middle;
     border-style: none;
